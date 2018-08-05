@@ -7,3 +7,15 @@ https://classroom.udacity.com/nanodegrees/nd013/parts/6047fe34-d93c-4f50-8336-b7
 
 
 
+
+wget https://bootstrap.pypa.io/get-pip.py
+
+でバージョンアップされたpipを直接ダウンロードして
+
+sudo python3 get-pip.py
+
+で普通にインストールしたらでけた。
+
+
+
+
