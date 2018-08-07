@@ -1,5 +1,7 @@
 # last-lesson
 
+nautilus-open-terminal 
+In 16.04 there is no nautilus-open-terminal package. Use nautilus-actions instead. –
 
 vm
 
