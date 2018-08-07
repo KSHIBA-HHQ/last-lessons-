@@ -23,3 +23,23 @@ https://github.com/udacity/CarND-Capstone
 
 
 
+### VirtualBox 共有設定（フォルダ登録
+①VirtualVMに仮想光学ドライブを追加　内容は空ディスクでOK
+②VirtualVMメニューの「Device」→「Insert Guest Additions CD images ...」．を選択起動（成り行きOK）
+③Guest Additions CDイメージをマウント
+# mount /dev/cdrom /適当なフォルダ
+④仮想CDの中に入っている./VBoxLinuxAdditions.runを実行する
+# ./VBoxLinuxAdditions.run
+終わったら仮想マシンは、一旦シャットダウンする。
+# shutdown -h now
+
+
+### VirtualBox 共有設定（パーミッション解放）
+以下　トライして再起動　
+Add yourself to the vboxsf group within the guest VM.
+・Solution 1
+Edit the file /etc/group. Look for the line vboxsf:x:999 and add at the end :yourusername
+
+・Solution 2
+Run sudo adduser $USER vboxsf
+
