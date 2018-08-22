@@ -25,9 +25,9 @@ https://github.com/udacity/CarND-Capstone
 
 ++++++++++++++++++++++++++++++++++
 
-##sudo apt-get install python-scipy
+### sudo apt-get install python-scipy
 
-##sudo apt-get install  ros-kinetic-dbw-mkz-msgs
+### sudo apt-get install  ros-kinetic-dbw-mkz-msgs
 
 ++++++++++++++++++++++++++++++++++
 
