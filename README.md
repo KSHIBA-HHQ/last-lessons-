@@ -23,7 +23,13 @@ udacity project (github site repository)
 
 https://github.com/udacity/CarND-Capstone
 
+++++++++++++++++++++++++++++++++++
 
+##sudo apt-get install python-scipy
+
+##sudo apt-get install  ros-kinetic-dbw-mkz-msgs
+
+++++++++++++++++++++++++++++++++++
 
 ### VirtualBox 共有設定（フォルダ登録
 ①VirtualVMに仮想光学ドライブを追加　内容は空ディスクでOK
